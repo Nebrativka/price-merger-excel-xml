@@ -59,8 +59,8 @@ async function processXml() {
     console.log("First 5 offers:");
     offers.slice(0, 5).forEach((offer) => {
       console.log({
-        id: offer.$.id, // атрибут id
-        available: offer.$.available, // атрибут available
+        id: offer.$.id,
+        available: offer.$.available,
         name: offer.name[0],
         url: offer.url[0],
         currency: offer.currency[0],
@@ -69,7 +69,7 @@ async function processXml() {
         vendorCode: offer.vendorCode[0],
         vendor: offer.vendor[0],
         stock_quantity: offer.stock_quantity[0],
-        pictures: offer.picture.map((p) => p), // массив картинок
+        pictures: offer.picture.map((p) => p),
       });
     });
     //=========================================
