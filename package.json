@@ -1,0 +1,19 @@
+{
+  "name": "price-merger-excel-xml",
+  "version": "1.0.0",
+  "description": "Инструмент для импорта, слияния и обновления цен: чтение данных из Excel, обработка и экспорт в XML. Используется для автоматизации обновления прайс-листов.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "fs": "^0.0.1-security",
+    "xlsx": "^0.18.5",
+    "xml2js": "^0.6.2"
+  }
+}
